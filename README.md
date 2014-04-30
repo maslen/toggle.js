@@ -7,5 +7,7 @@ Example:
 
 ```
 var yearToggle = toggle([2012, 2013])
-console.log(yearToggle());
+console.log(yearToggle()); // outputs "2013"
+console.log(yearToggle()); // outputs "2012"
+console.log(yearToggle()); // outputs "2013"
 ```
